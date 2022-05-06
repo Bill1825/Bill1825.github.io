@@ -1,0 +1,103 @@
+*{margin: 0;}
+
+body{
+    background-color: turquoise;
+    font-family: URW Chancery L, cursive;
+}
+
+.barra{
+    background: skyblue;
+    text-align: center;
+}
+
+.barra ul li{
+    display: inline-block;
+    padding: 20px 60px 20px 60px;
+}
+
+.barra ul li a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.barra ul li:hover{
+    background-color: azure;
+}
+
+body{
+    background-image: url(/imagen/istockphoto-577965774-612x612.jpg);
+    background-size: 100%;
+}
+
+.encabezado{
+    background-color: rgba(41, 193, 193, 0.502);
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+    font-family: Arial;
+    text-shadow: 0px 0px 20px rgb(4, 133, 197);
+}
+
+.textoimagen{
+    background-color: rgba(41, 193, 193, 0.502);
+    margin: 0px 100px 0px 100px;
+    font-size: 30px;
+}
+
+.textoimagen p{
+    text-align: justify;
+}
+
+.textoimagen img{
+    width: 200px;
+    float: left;
+    margin: 0px 100px 0px 100px;
+}
+
+.geografia{
+    background-color: rgba(41, 193, 193, 0.502);
+    margin: 0px 100px 0px 100px;
+}
+
+.geografia h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px; 
+    color: rgba(255, 255, 255, 0); 
+    text-shadow: 0 0 2px #0d0d0e; 
+    text-transform: uppercase;
+}
+
+.geografia p{
+    font-size: 30px;
+    text-align: justify;
+}
+
+.tabla{ 
+    width: 80%;
+    border-collapse: collapse;
+    background-color: rgba(240, 255, 255, 0.631);
+}
+
+tr, td{
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.piedepagina{
+    width: 100%;
+    background-color: rgba(31, 97, 240, 0.768);
+    text-align: right;
+}
+
+.piedepagina p{
+    font-size: 20px;
+}
+
+.piedepagina address{
+    font-size: 20px;
+}
