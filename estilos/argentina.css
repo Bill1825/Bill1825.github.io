@@ -116,53 +116,45 @@ body{
     float: left;
     margin: 0px 100px 0px 100px;
 }
-
-.geografia{
+.titulo{
+    text-align: center;
     background-color: rgba(138, 243, 243, 0.598);
     margin: 0px 100px 0px 100px;
 }
 
-.geografia h1{
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px; 
-    color: rgba(255, 255, 255, 0); 
-    text-shadow: 0 0 2px #0d0d0e; 
-    text-transform: uppercase;
-}
-
-.geografia p{
+.imagenes{
+    background-color: rgba(138, 243, 243, 0.598);
+    margin: 0px 100px 0px 100px;
     font-size: 30px;
-    text-align: justify;
 }
 
-.tabla{ 
-    width: 80%;
-    border-collapse: collapse;
-    background-color: rgba(240, 255, 255, 0.631);
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.header{
-    background-color: skyblue;
+.fotos{
+    padding: 0 20px 20px;
 }
 
-tr, td{
-    width: 25%;
-    text-align: center;
-    border: 1px solid black;
-    vertical-align: top;
+img:hover{
+    opacity: .5;
+    transition: .5s;
 }
 
 .piedepagina{
-    width: 100%;
+    margin: 30px;
     background-color: rgba(31, 97, 240, 0.768);
     text-align: right;
 }
 
 .piedepagina p{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .piedepagina address{
-    font-size: 20px;
+    font-size: 30px;
 }
